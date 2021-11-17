@@ -20,222 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0fcd7a9-5139-487d-90a2-94a22bc7dcf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/arrow-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/example4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/hamburger-menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/archive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/admin/admin-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/admin/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/admin/buttons-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/admin/buttons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/admin/customizer/customizer-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/admin/customizer/customizer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/admin/customizer/customizer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/admin/plugin-install-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/admin/plugin-install.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/admin/welcome-screen/welcome-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/admin/welcome-screen/welcome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/admin/welcome-screen/welcome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/base/gutenberg-blocks-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/base/gutenberg-blocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/base/gutenberg-editor-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/base/gutenberg-editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/base/icons-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/base/icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/jetpack/infinite-scroll-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/jetpack/infinite-scroll.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/jetpack/widgets-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/jetpack/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/advanced-product-labels-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/advanced-product-labels.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/advanced-product-labels.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/ajax-layered-nav-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/ajax-layered-nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/ajax-layered-nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/bookings-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/bookings.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/bookings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/brands-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/brands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/brands.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/bundles-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/bundles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/bundles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/composite-products-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/composite-products.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/composite-products.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/deposits-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/deposits.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/deposits.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/memberships-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/memberships.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/memberships.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/mix-and-match-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/mix-and-match.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/mix-and-match.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/photography-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/photography.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/photography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/product-recommendations-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/product-recommendations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/product-recommendations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/product-reviews-pro-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/product-reviews-pro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/product-reviews-pro.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/quick-view-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/quick-view.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/quick-view.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/ship-multiple-addresses-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/ship-multiple-addresses.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/ship-multiple-addresses.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/smart-coupons-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/smart-coupons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/smart-coupons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/variation-swatches-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/variation-swatches.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/variation-swatches.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/wishlists-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/wishlists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/extensions/wishlists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/woocommerce-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/css/woocommerce/woocommerce.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/fonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/admin/storefront-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/admin/welcome-screen/automattic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/admin/welcome-screen/child-themes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/admin/welcome-screen/storefront-bundle-hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/credit-cards/amex.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/credit-cards/diners.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/credit-cards/discover.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/credit-cards/jcb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/credit-cards/laser.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/credit-cards/maestro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/credit-cards/mastercard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/credit-cards/paypal.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/credit-cards/unknown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/credit-cards/visa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/controls/2cl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/controls/2cr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/categories/accessories.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/categories/hoodies.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/categories/tshirts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/products/beanie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/products/belt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/products/cap.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/products/hoodie-with-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/products/hoodie-with-pocket.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/products/hoodie-with-zipper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/products/hoodie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/products/long-sleeve-tee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/products/polo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/products/sunglasses.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/products/tshirt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/customizer/starter-content/products/vneck-tee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/arrow-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/example.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/example2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/example3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/example4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/hamburger-menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/home.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/kancelaria-jurkiewicz-logo-duze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/kancelaria-jurkiewicz-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/paragraph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/profesjonalisci.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/trojkat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/admin/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/admin/admin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/admin/customizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/admin/customizer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/admin/plugin-install.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/admin/plugin-install.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/footer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/homepage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/homepage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/navigation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/sticky-add-to-cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/sticky-add-to-cart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/woocommerce/extensions/brands.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/woocommerce/extensions/brands.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/woocommerce/header-cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/woocommerce/header-cart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/content-homepage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/content-none.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/content-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/content-single.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/content.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/admin/class-storefront-admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/admin/class-storefront-plugin-install.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/class-storefront.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/customizer/class-storefront-customizer-control-arbitrary.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/customizer/class-storefront-customizer-control-more.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/customizer/class-storefront-customizer-control-radio-image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/customizer/class-storefront-customizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/jetpack/class-storefront-jetpack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/nux/class-storefront-nux-admin-inbox-messages-customize.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/nux/class-storefront-nux-admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/nux/class-storefront-nux-guided-tour.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/nux/class-storefront-nux-starter-content.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/storefront-functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/storefront-template-functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/storefront-template-hooks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/woocommerce/class-storefront-woocommerce-adjacent-products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/woocommerce/class-storefront-woocommerce-customizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/woocommerce/class-storefront-woocommerce.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/woocommerce/storefront-woocommerce-functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/woocommerce/storefront-woocommerce-template-functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/woocommerce/storefront-woocommerce-template-hooks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/inc/wordpress-shims.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/languages/storefront.pot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/loop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/single.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/style-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/template-fullwidth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/template-homepage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/archive-product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kancelaria-jurkiewicz/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kancelaria-jurkiewicz/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kancelaria-jurkiewicz/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kancelaria-jurkiewicz/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,16 +63,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Skylo/wordpress" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kancelaria-jurkiewicz" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\jurkiewicz\kancelaria-jurkiewicz" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\jurkiewicz\kancelaria-jurkiewicz\assets\images\jurkiewicz" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\jurkiewicz\img" />
-      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\jurkiewicz\kancelaria-jurkiewicz" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\jurkiewicz" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\jurkiewicz\mg" />
     </key>
@@ -297,7 +87,7 @@
       <updated>1637077934787</updated>
       <workItem from="1637077935855" duration="14966000" />
       <workItem from="1637150140930" duration="2160000" />
-      <workItem from="1637152354466" duration="3981000" />
+      <workItem from="1637152354466" duration="19145000" />
     </task>
     <servers />
   </component>

@@ -57,6 +57,20 @@ body {
     position: relative;
 }
 
+.coupon, .woocommerce-form-coupon-toggle,
+.storefront-handheld-footer-bar,
+.site-info,
+.added_to_cart,
+.storefront-sorting,
+.cart-subtotal,
+.woocommerce-order-received .woocommerce-customer-details,
+.woocommerce-additional-fields,
+.widget-area,
+.home .entry-content,
+.storefront-breadcrumb {
+    display: none !important;
+}
+
 .section, .footer {
     width: 100%;
     padding-left: clamp(calc((100vw - 1360px) / 2), 5vw, calc((100vw - 200px) / 2));
@@ -65,10 +79,15 @@ body {
 }
 
 .header, .singleProduct,
-.ebooks__crosssells .section__ebooks
+.ebooks__crosssells .section__ebooks,
+.site-content
 {
     width: clamp(200px, 90vw, 1360px);
     margin: auto;
+}
+
+.home .site-content {
+    width: 100%;
 }
 
 .section {
@@ -91,9 +110,9 @@ a {
     color: inherit;
 }
 
-button {
+a, button {
     border: none;
-    outline: none;
+    outline: none !important;
 }
 
 .center {
@@ -112,6 +131,10 @@ button {
     padding-top: 30px;
     padding-bottom: 50px;
     border-bottom: 1px solid #DBDBDB;
+}
+
+.header__logoWrapper {
+    outline: none !important;
 }
 
 .header__menu {
@@ -141,11 +164,19 @@ button {
     transform: scaleX(1);
 }
 
+.header__menu__list {
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
 .header__menu__list__link {
+    color: #000;
     font-weight: 700;
+    outline: none !important;
 }
 
 .header__cart {
+    outline: none !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,6 +187,10 @@ button {
 .header__cart__img {
     width: 30px;
     margin-bottom: 5px;
+}
+
+.header__cart span {
+    color: #000;
 }
 
 /* Hero */
@@ -242,7 +277,10 @@ button {
     padding-top: 60px;
 }
 
+.page-title,
+.entry-title,
 .section__header {
+    font-weight: 700;
     font-size: 48px;
     text-align: center;
     width: fit-content;
@@ -252,6 +290,8 @@ button {
     position: relative;
 }
 
+.page-title::after,
+.entry-title::after,
 .section__header::after {
     content: "";
     position: absolute;
@@ -276,10 +316,19 @@ button {
 }
 
 .section__ebooks__item {
+    position: relative;
     width: 21%;
+    min-height: 560px;
     border: 1px solid #DBDBDB;
     background: #fff;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section__ebooks__item {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -299,24 +348,30 @@ button {
 
 .section__ebooks__item__title {
     font-size: 22px;
+    font-weight: 700;
     margin: 10px auto;
+    text-align: center;
 }
 
 .section__ebooks__item__text {
     color: #606060;
     font-size: 14px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .section__ebooks__item__price {
-    margin: 20px auto;
+    margin: 0 auto 10px;
     color: var(--orange);
     font-size: 22px;
+    font-weight: 700;
+    text-align: center;
 }
 
 .section__ebooks__item__button {
     width: 90%;
     height: 35px;
+    padding: 0;
     border-radius: 5px;
     border: 1px solid var(--orange);
     font-weight: 700;
@@ -344,6 +399,13 @@ button {
     align-items: flex-start;
 }
 
+.section__trainings__item__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
 .section__trainings__item__btn {
     margin-top: 25px;
     width: 100%;
@@ -365,6 +427,7 @@ button {
 .section__trainings__item__imgWrapper {
     width: 325px;
     height: 260px;
+    overflow: hidden;
     border: 1px solid #dbbdbd;
 }
 
@@ -408,6 +471,7 @@ button {
 .section__trainings__item__priceWrapper {
     color: #606060;
     font-size: 18px;
+    font-weight: 700;
 }
 
 .section__trainings__item__price {
@@ -435,6 +499,7 @@ button {
 }
 
 .aboutUs__header {
+    font-weight: 700;
     font-size: 36px;
     width: fit-content;
     width: -moz-max-content;
@@ -482,7 +547,8 @@ button {
 }
 
 .map {
-    margin: 30px auto;
+    margin: 50px auto;
+    height: 400px;
 }
 
 .contact__main {
@@ -490,9 +556,12 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin-top: 40px;
 }
 
 .contact__main__header {
+    font-weight: 700;
     font-size: 24px;
     margin-bottom: 20px;
 }
@@ -530,6 +599,7 @@ button {
 }
 
 .footer__header {
+    font-weight: 700;
     font-size: 16px;
     margin-bottom: 20px;
 }
@@ -537,6 +607,10 @@ button {
 .footer__col__text {
     margin-top: 20px;
     font-size: 14px;
+}
+
+.footer__col__list {
+    margin-left: 0;
 }
 
 .footer__col__list__item {
@@ -575,6 +649,7 @@ button {
 
 /* Single product */
 .backBtnWrapper {
+    padding-left: 0;
     padding-top: 15px;
     background: transparent;
 }
@@ -609,6 +684,7 @@ button {
 .singleProduct__imgWrapper {
     width: 400px;
     height: 533px;
+    border: 1px solid #DBDBDB;
     overflow: hidden;
 }
 
@@ -623,6 +699,7 @@ button {
 
 .singleProduct__title {
     font-size: 42px;
+    font-weight: 700;
     margin-right: 20px;
 }
 
@@ -689,4 +766,185 @@ button {
 
 .ebooks__crosssells .section__ebooks {
     margin: 50px auto;
+}
+
+/* Storefront updates */
+.site-header {
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.site-footer {
+    background: transparent !important;
+    padding-bottom: 15px;
+}
+
+.col-full {
+    padding: 0 !important;
+    max-width: none !important;
+}
+
+.site-footer a {
+    text-decoration: none !important;
+}
+
+.content-area {
+    width: 100% !important;
+    margin-right: 0;
+}
+
+.entry-title {
+    text-align: center;
+    width: fit-content;
+    width: -moz-max-content;
+    margin-top: 30px;
+}
+
+.entry-content {
+    margin-top: 50px;
+}
+
+.woocommerce-info {
+    background: var(--orange) !important;
+}
+
+.button {
+    background: var(--orange) !important;
+    color: #fff !important;
+    border-radius: 5px;
+    transition: .3s all !important;
+}
+
+.button:hover {
+    background: var(--hover) !important;
+}
+
+.product-name a {
+    color: #6d6d6d !important;
+    text-decoration: none !important;
+}
+
+table, table *:not(input) {
+    background-color: #fff !important;
+}
+
+.shop_table {
+    border: 1px solid #DBDBDB;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.shop_table > thead > tr > th {
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.cart_totals h2 {
+    margin-bottom: 25px !important;
+}
+
+.order-total {
+    margin-bottom: 0 !important;
+}
+
+.woocommerce-billing-fields__field-wrapper input {
+    outline: none !important;
+    border: 1px solid var(--orange);
+    box-shadow: none !important;
+    background: #fff !important;
+    border-radius: 3px;
+}
+
+.billing_country_field {
+    display: none;
+}
+
+.woocommerce-privacy-policy-text {
+    font-size: 14px;
+    text-align: center;
+}
+
+.wc_payment_method, .wc_payment_method label {
+    background-color: #fff !important;
+}
+
+.wc_payment_methods {
+    border: 1px solid #dbdbdb;
+}
+
+.woocommerce-checkout #order_review {
+    background: transparent !important;
+}
+
+.wc_payment_methods li:first-of-type {
+    visibility: hidden;
+    height: 0;
+}
+
+#payment .payment_methods li:first-of-type img {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#payment .place-order {
+    margin-top: 0 !important;
+}
+
+.woocommerce-products-header {
+    margin: 50px auto;
+}
+
+.download-product a,
+.xoo-cp-ptitle a {
+    color: #606060 !important;
+    text-decoration: none !important;
+}
+
+.woocommerce-thankyou-order-received {
+    text-align: center !important;
+    max-width: 600px;
+    margin: auto;
+}
+
+.woocommerce-thankyou-order-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__ebooks__item .add_to_cart_button {
+    background: transparent !important;
+    color: #000 !important;
+    border: 1px solid var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 90%;
+    transform: translateX(-50%);
+}
+
+.section__trainings__item .add_to_cart_button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: transparent !important;
+    border: 1px solid var(--orange);
+    color: #000 !important;
+}
+
+.section__ebooks__item .add_to_cart_button:hover,
+.section__trainings__item .add_to_cart_button:hover,
+.add_to_cart_button:hover {
+    background: var(--orange) !important;
+    color: #fff !important;
+    outline: none !important;
+    border: 1px solid var(--orange);
 }
