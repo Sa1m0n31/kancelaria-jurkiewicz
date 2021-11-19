@@ -20,10 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0fcd7a9-5139-487d-90a2-94a22bc7dcf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/archive-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/circles.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/head.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/learning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/lupa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/portfolio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/reka.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/rozwoj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/images/jurkiewicz/waga.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/single-product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kancelaria-jurkiewicz/archive-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/archive-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kancelaria-jurkiewicz/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kancelaria-jurkiewicz/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kancelaria-jurkiewicz/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kancelaria-jurkiewicz/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/kancelaria-jurkiewicz/style.css" afterDir="false" />
     </list>
@@ -63,15 +73,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kancelaria-jurkiewicz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../czp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\jurkiewicz\kancelaria-jurkiewicz" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\jurkiewicz\kancelaria-jurkiewicz\assets\images\jurkiewicz" />
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\jurkiewicz\kancelaria-jurkiewicz" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\jurkiewicz\img" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\jurkiewicz" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\jurkiewicz\mg" />
@@ -87,7 +97,12 @@
       <updated>1637077934787</updated>
       <workItem from="1637077935855" duration="14966000" />
       <workItem from="1637150140930" duration="2160000" />
-      <workItem from="1637152354466" duration="19145000" />
+      <workItem from="1637152354466" duration="19472000" />
+      <workItem from="1637189322725" duration="15000" />
+      <workItem from="1637191431111" duration="2000" />
+      <workItem from="1637227084181" duration="183000" />
+      <workItem from="1637231468168" duration="5420000" />
+      <workItem from="1637246660753" duration="16295000" />
     </task>
     <servers />
   </component>

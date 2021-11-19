@@ -74,7 +74,11 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
 function jurkiewicz_scripts() {
     wp_enqueue_style( 'css-mobile', get_template_directory_uri() . '/mobile.css', array(), _S_VERSION );
 
-    wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/main.js', array(), _S_VERSION, true );
+    wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/main.js', array('aos-js'), _S_VERSION, true );
+
+    /* AOS */
+    wp_enqueue_script('aos-js', 'https://unpkg.com/aos@2.3.1/dist/aos.js');
+    wp_enqueue_style('aos-css', 'https://unpkg.com/aos@2.3.1/dist/aos.css');
 
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
         wp_enqueue_script( 'comment-reply' );
@@ -92,6 +96,10 @@ add_action('wp_head', 'remove_header_actions');
 function jurkiewicz_header() {
     ?>
 	<header class="header flex">
+        <?php
+            $cat = get_queried_object();
+            $catName = $cat->name;
+        ?>
 		<!-- DESKTOP -->
 		<a class="header__logoWrapper" href="<?php echo home_url(); ?>">
 			<img class="header__logoImg" src="<?php echo get_bloginfo('stylesheet_directory') . '/assets/images/jurkiewicz/kancelaria-jurkiewicz-logo.png' ?>" alt="kancelaria-jurkiewicz" />
@@ -103,12 +111,12 @@ function jurkiewicz_header() {
 						Strona główna
 					</a>
 				</li>
-				<li class="header__menu__list__item">
+				<li class="header__menu__list__item <?php if($catName == "E-booki") echo "header__menu__list__item--selected"; ?>">
 					<a class="header__menu__list__link" href="https://kancelariajurkiewicz.skylo-test1.pl/kategoria-produktu/e-booki">
 						E-booki
 					</a>
 				</li>
-				<li class="header__menu__list__item">
+				<li class="header__menu__list__item <?php if($catName == "Szkolenia") echo "header__menu__list__item--selected"; ?>">
 					<a class="header__menu__list__link" href="https://kancelariajurkiewicz.skylo-test1.pl/kategoria-produktu/szkolenia">
 						Szkolenia
 					</a>
@@ -145,46 +153,46 @@ function jurkiewicz_header() {
 		<button class="hamburgerMenu d-mobile" onclick="openMobileMenu()">
 			<img class="btn__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/assets/images/jurkiewicz/hamburger-menu.svg' ?>" alt="menu" />
 		</button>
-		<menu class="mobileMenu d-mobile">
-			<button class="closeMenuBtn" onclick="closeMobileMenu()">
-				<img class="btn__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/assets/images/jurkiewicz/close.svg' ?>" alt="zamknij" />
-			</button>
-			<a class="mobileMenu__logo" href="">
-				<img class="btn__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/assets/images/jurkiewicz/kancelaria-jurkiewicz-logo.png' ?>" alt="logo" />
-			</a>
-			<ul class="mobileMenu__list">
-				<li class="mobileMenu__list__item">
-					<a class="mobileMenu__list__link" href="<?php echo home_url(); ?>">
-						Strona główna
-					</a>
-				</li>
-				<li class="mobileMenu__list__item">
-					<a class="mobileMenu__list__link" href="https://kancelariajurkiewicz.skylo-test1.pl/kategoria-produktu/e-booki/">
-						E-booki
-					</a>
-				</li>
-				<li class="mobileMenu__list__item">
-					<a class="mobileMenu__list__link" href="https://kancelariajurkiewicz.skylo-test1.pl/kategoria-produktu/szkolenia/">
-						Szkolenia
-					</a>
-				</li>
-				<li class="mobileMenu__list__item">
-					<a class="mobileMenu__list__link" href="<?php echo home_url() . '#kontakt' ?>">
-						Kontakt
-					</a>
-				</li>
-				<li class="mobileMenu__list__item">
-					<a class="mobileMenu__list__link" rel="noreferrer" href="http://kancelaria-jurkiewicz.pl">
-						Kancelaria Jurkiewicz
-					</a>
-				</li>
-			</ul>
-			<a class="header__cart" href="<?php echo wc_get_cart_url(); ?>">
-				<img class="header__cart__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/assets/images/jurkiewicz/cart.png' ?>" alt="koszyk" />
-				<span>Koszyk (<?php echo WC()->cart->get_cart_contents_count(); ?>)</span>
-			</a>
-		</menu>
 	</header>
+    <menu class="mobileMenu d-mobile">
+        <button class="closeMenuBtn" onclick="closeMobileMenu()">
+            <img class="btn__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/assets/images/jurkiewicz/close.svg' ?>" alt="zamknij" />
+        </button>
+        <a class="mobileMenu__logo" href="">
+            <img class="btn__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/assets/images/jurkiewicz/kancelaria-jurkiewicz-logo.png' ?>" alt="logo" />
+        </a>
+        <ul class="mobileMenu__list">
+            <li class="mobileMenu__list__item">
+                <a class="mobileMenu__list__link" href="<?php echo home_url(); ?>">
+                    Strona główna
+                </a>
+            </li>
+            <li class="mobileMenu__list__item">
+                <a class="mobileMenu__list__link" href="https://kancelariajurkiewicz.skylo-test1.pl/kategoria-produktu/e-booki/">
+                    E-booki
+                </a>
+            </li>
+            <li class="mobileMenu__list__item">
+                <a class="mobileMenu__list__link" href="https://kancelariajurkiewicz.skylo-test1.pl/kategoria-produktu/szkolenia/">
+                    Szkolenia
+                </a>
+            </li>
+            <li class="mobileMenu__list__item" onclick="closeMobileMenu()">
+                <a class="mobileMenu__list__link" href="<?php echo home_url() . '#kontakt' ?>">
+                    Kontakt
+                </a>
+            </li>
+            <li class="mobileMenu__list__item">
+                <a class="mobileMenu__list__link" rel="noreferrer" href="http://kancelaria-jurkiewicz.pl">
+                    Kancelaria Jurkiewicz
+                </a>
+            </li>
+        </ul>
+        <a class="header__cart" href="<?php echo wc_get_cart_url(); ?>">
+            <img class="header__cart__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/assets/images/jurkiewicz/cart.png' ?>" alt="koszyk" />
+            <span>Koszyk (<?php echo WC()->cart->get_cart_contents_count(); ?>)</span>
+        </a>
+    </menu>
 <?php
 }
 
@@ -200,10 +208,10 @@ add_action('wp_head', 'remove_homepage');
 function jurkiewicz_homepage() {
 ?>
     <main class="section hero">
-        <h1 class="hero__header">
+        <h1 class="hero__header" data-aos="fade-in" data-aos-delay="0">
             Zdobywaj wiedzę i rozwijaj umiejętności Profesjonalne <span class="hero__header--orange">szkolenia i e-Booki</span>
         </h1>
-        <section class="hero__items flex">
+        <section class="hero__items flex" data-aos="fade-in" data-aos-delay="0">
             <section class="hero__items__item">
                 <figure class="hero__items__item__imgWrapper center">
                     <img class="hero__items__item__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/assets/images/jurkiewicz/check.png'; ?>" alt="aktualne-tresci" />
@@ -238,7 +246,7 @@ function jurkiewicz_homepage() {
                 </p>
             </section>
         </section>
-        <section class="hero__buttons center">
+        <section class="hero__buttons center" data-aos="fade-in" data-aos-delay="0">
             <a class="hero__button center" href="https://kancelariajurkiewicz.skylo-test1.pl/kategoria-produktu/e-booki">
                 Kup e-booka
             </a>
@@ -248,10 +256,10 @@ function jurkiewicz_homepage() {
         </section>
     </main>
     <section class="section section--ebooks">
-        <h2 class="section__header">
+        <h2 class="section__header" data-aos="fade-in">
             eBooki
         </h2>
-        <p class="section__text">
+        <p class="section__text" data-aos="fade-in">
             Internetowe książki, które możesz mieć na wyciągnięcie ręki. Nasze eBooki są przygotowywane przez zespół profesjonalnych doradców, a treści są zawsze aktualne.
         </p>
         <main class="section__ebooks flex">
@@ -267,11 +275,10 @@ function jurkiewicz_homepage() {
                             $loop->the_post();
                             global $product;
                             ?>
-                            <section class="section__ebooks__item">
+                            <section class="section__ebooks__item" data-aos="fade-up">
                                 <a class="section__ebooks__item__inner" href="<?php echo get_permalink( $product->get_id() ); ?>">
                                     <figure class="section__ebooks__item__imgWrapper">
-                                        <?php if (has_post_thumbnail($loop->post->ID)) echo get_the_post_thumbnail($loop->post->ID, 'shop_catalog');
-                                        else echo '<img class="section__ebooks__item__img" src="' . woocommerce_placeholder_img_src() . '" alt="Placeholder" width="300px" height="300px" />'; ?>
+                                        <img class="section__ebooks__item__img" src="<?php echo wp_get_attachment_url( $product->get_image_id() ); ?>" />
                                     </figure>
                                     <h3 class="section__ebooks__item__title">
                                         <?php echo the_title(); ?>
@@ -293,10 +300,10 @@ function jurkiewicz_homepage() {
         </main>
     </section>
     <section class="section section--trainings">
-        <h2 class="section__header">
+        <h2 class="section__header" data-aos="fade-in">
             Szkolenia
         </h2>
-        <p class="section__text">
+        <p class="section__text" data-aos="fade-in">
             Wybierz tematykę warsztatów, w których chcesz uczestniczyć, i zarezerwuj miejsce. Wszystkie nasze szkolenia prowadzone są przez wykwalifikowany personel.
         </p>
         <main class="section__trainings flex">
@@ -313,7 +320,7 @@ function jurkiewicz_homepage() {
                         $loop->the_post();
                         global $product;
                     ?>
-                    <section class="section__trainings__item flex">
+                    <section class="section__trainings__item flex" data-aos="fade-up">
                         <a class="section__trainings__item__inner" href="<?php echo get_permalink( $product->get_id() ); ?>">
                             <figure class="section__trainings__item__imgWrapper">
                                 <?php if (has_post_thumbnail($loop->post->ID)) echo get_the_post_thumbnail($loop->post->ID, 'shop_catalog');
@@ -344,10 +351,10 @@ function jurkiewicz_homepage() {
         </main>
     </section>
     <section class="section section--aboutUs flex" id="o-nas">
-        <figure class="aboutUs__imgWrapper">
-            <img class="aboutUs__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/assets/images/jurkiewicz/example3.svg'; ?>" alt="kancelaria-jurkiewicz" />
+        <figure class="aboutUs__imgWrapper" data-aos="fade-right">
+            <img class="aboutUs__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/assets/images/jurkiewicz/waga.jpg'; ?>" alt="kancelaria-jurkiewicz" />
         </figure>
-        <article class="aboutUs__content">
+        <article class="aboutUs__content" data-aos="fade-left">
             <h2 class="aboutUs__header">
                 O kancelarii
             </h2>
@@ -366,13 +373,13 @@ function jurkiewicz_homepage() {
         </article>
     </section>
     <section class="section section--contact" id="kontakt">
-        <h2 class="section__header">
+        <h2 class="section__header" data-aos="fade-in">
             Kontakt
         </h2>
-        <div class="map">
+        <div class="map" data-aos="fade-in">
             <?php echo do_shortcode('[wpgmza id="1"]'); ?>
         </div>
-        <main class="contact__main">
+        <main class="contact__main" data-aos="fade-up">
             <h3 class="contact__main__header">
                 Kancelaria Prawna Moniki Jurkiewicz
             </h3>
@@ -420,12 +427,12 @@ function jurkiewicz_footer() {
             </h4>
             <ul class="footer__col__list">
                 <li class="footer__col__list__item">
-                    <a class="footer__link" href=".">
+                    <a class="footer__link" href="<?php echo get_page_link(get_page_by_title('Regulamin')->ID); ?>">
                         Regulamin
                     </a>
                 </li>
                 <li class="footer__col__list__item">
-                    <a class="footer__link" href=".">
+                    <a class="footer__link" href="<?php echo get_page_link(get_page_by_title("Polityka prywatności")->ID); ?>">
                         Polityka prywatności
                     </a>
                 </li>
@@ -437,12 +444,12 @@ function jurkiewicz_footer() {
             </h4>
             <ul class="footer__col__list">
                 <li class="footer__col__list__item">
-                    <a class="footer__link" href=".">
+                    <a class="footer__link" href="https://kancelariajurkiewicz.skylo-test1.pl/kategoria-produktu/e-booki">
                         E-booki
                     </a>
                 </li>
                 <li class="footer__col__list__item">
-                    <a class="footer__link" href=".">
+                    <a class="footer__link" href="https://kancelariajurkiewicz.skylo-test1.pl/kategoria-produktu/szkolenia">
                         Szkolenia
                     </a>
                 </li>
